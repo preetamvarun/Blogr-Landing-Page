@@ -9,3 +9,12 @@ $very-light-red-gradient : hsl(13, 100%, 72%);
 $light-red-gradient : hsl(353, 100%, 62%);
 $very-dark-blue-gradient :  hsl(237, 17%, 21%);
 $very-dark-desaturated-blue-gradient : hsl(237, 23%, 32%);
+
+// declare a map for font-weights 
+$font-weights : (
+    'light-Overpass' : 300px,
+    'semi-bold-Overpass' : 600px,
+    'light-Ubuntu' : 400px,
+    'semi-bold-Ubuntu' : 500px,
+    'bold-Ubuntu' : 700px
+);
