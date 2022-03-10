@@ -1,4 +1,11 @@
+*, *::after, *::before {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=main.css.map */
