@@ -10,4 +10,44 @@
 body {
   overflow-x: hidden;
 }
+
+.header .header__navigation {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0rem;
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__navigation-left span {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.header .header__navigation-right a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 20px;
+  background-color: rebeccapurple;
+  border-radius: 20px;
+}
+
+.header .header__content {
+  background-color: blue;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
