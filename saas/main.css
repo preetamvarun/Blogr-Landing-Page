@@ -11,11 +11,19 @@ body {
   overflow-x: hidden;
 }
 
+.header {
+  background: url("../images/bg-pattern-intro-desktop.svg") no-repeat center center/cover, -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background: url("../images/bg-pattern-intro-desktop.svg") no-repeat center center/cover, linear-gradient(to right, #ff8f70, #ff3d54);
+  border-radius: 0px 0px 0px 75px;
+  font-family: 'Overpass', sans-serif;
+  background-size: 100%;
+  height: 80vh;
+}
+
 .header .header__navigation {
   max-width: 90%;
   margin: 0 auto;
   padding: 2rem 0rem;
-  background-color: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,20 +42,68 @@ body {
 .header .header__navigation-left span {
   color: white;
   font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
 }
 
 .header .header__navigation-right a {
   text-decoration: none;
   display: inline-block;
-  padding: 6px 20px;
-  background-color: rebeccapurple;
-  border-radius: 20px;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: .95rem;
+  font-weight: 500;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  font-weight: 600;
+}
+
+.header .header__navigation-right a:hover {
+  background-color: white;
+  color: #ff525d;
 }
 
 .header .header__content {
-  background-color: blue;
-  max-width: 80%;
-  margin: auto;
   text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.header .header__content h1 {
+  color: white;
+}
+
+.header .header__content p {
+  color: #c8c8cb;
+  font-weight: 600;
+  padding: .75rem 0rem 1.75rem 0rem;
+}
+
+.header .header__content a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 25px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: .95rem;
+  font-weight: 500;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: white;
+  margin: 0rem .3rem;
+}
+
+.header .header__content a:hover {
+  background-color: white;
+  color: #ff525d;
 }
 /*# sourceMappingURL=main.css.map */

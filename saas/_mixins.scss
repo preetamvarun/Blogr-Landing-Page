@@ -1,6 +1,31 @@
+@import "variables";
+
 @mixin flex($flex-direction, $justify-content,$align-items){
     display: flex;
     flex-direction: $flex-direction;
     justify-content: $justify-content;
     align-items: $align-items;
+}
+
+@mixin border($bw,$bs,$bc){
+    border-width: $bw;
+    border-style: $bs;
+    border-color: $bc;
+}
+
+@mixin header_links(){
+    text-decoration: none;
+    display: inline-block;
+    padding : 8px 16px;
+    border-radius : 25px;
+    color : $white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size : .95rem;
+    font-weight: map-get($map : $font-weights, $key : 'semi-bold-Ubuntu');
+    transition: all .5s ease;
+}
+
+@mixin header_links_hover(){
+    background-color: $white;
+    color : $light-red;
 }
