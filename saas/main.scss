@@ -28,7 +28,7 @@
     #{&}__navigation-right{
         a{
             @include header_links();
-            font-weight: map-get($map: $font-weights, $key: 'semi-bold-Overpass');
+            font-weight: map-get($map: $font-weights, $key: 'semi-bold-Ubuntu');
         }
         a:hover{
             @include header_links_hover();
@@ -59,5 +59,24 @@
         a:hover{
             @include header_links_hover();
         }
+    }
+}
+
+.future{
+    font-family: 'Overpass', sans-serif;
+    h2{
+        text-align: center;
+    }
+    #{&}__content{
+        background-color: cyan;
+        position: relative;
+        display: flex;
+    }
+    #{&}__test{
+        background-color: red;
+        flex: 1.75;
+    }
+    #{&}__image{
+        flex : 2;
     }
 }

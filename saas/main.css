@@ -57,7 +57,7 @@ body {
   font-weight: 500;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .header .header__navigation-right a:hover {
@@ -105,5 +105,34 @@ body {
 .header .header__content a:hover {
   background-color: white;
   color: #ff525d;
+}
+
+.future {
+  font-family: 'Overpass', sans-serif;
+}
+
+.future h2 {
+  text-align: center;
+}
+
+.future .future__content {
+  background-color: cyan;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.future .future__test {
+  background-color: red;
+  -webkit-box-flex: 1.75;
+      -ms-flex: 1.75;
+          flex: 1.75;
+}
+
+.future .future__image {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 /*# sourceMappingURL=main.css.map */
