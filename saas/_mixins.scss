@@ -29,3 +29,16 @@
     background-color: $white;
     color : $light-red;
 }
+
+@mixin section_one_content(){
+    padding : .75rem 1.25rem;
+    max-width: 90%;
+    margin : 0 auto;
+    p{
+        padding : 1rem 0rem;
+        line-height: 1.5rem;
+    }
+    h3{
+        color : $very-dark-blue;
+    }
+}
