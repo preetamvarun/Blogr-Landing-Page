@@ -112,7 +112,6 @@ html, body {
 
 .future {
   font-family: 'Overpass', sans-serif;
-  margin-bottom: -3.5rem;
 }
 
 .future h2 {
@@ -186,24 +185,7 @@ html, body {
 
 .infrastructure {
   color: white;
-  background-color: #1f3f5b;
   font-family: 'Overpass', sans-serif;
-  border-radius: 0px 120px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 65vh;
-  margin: 5rem 0rem;
 }
 
 .infrastructure .infrastructure__mobile img {
@@ -211,12 +193,13 @@ html, body {
   width: 530px;
 }
 
-.infrastructure .infrastructure__content {
-  max-width: 45%;
-}
-
 .infrastructure .infrastructure__content p {
   padding: 1rem 0rem;
   line-height: 1.5rem;
+}
+
+.infrastructure .infrastructure__circles img {
+  height: 500px;
+  width: 500px;
 }
 /*# sourceMappingURL=main.css.map */

@@ -64,7 +64,7 @@
 
 .future{
     font-family: 'Overpass', sans-serif;
-    margin-bottom: -3.5rem;
+    // margin-bottom: -3.5rem;
     h2{
         text-align: center;
         position: relative;
@@ -105,12 +105,12 @@
 
 .infrastructure{
     color : $white;
-    background-color: $very-dark-blue;
+    // background-color: $very-dark-blue;
     font-family: 'Overpass', sans-serif;
-    border-radius: 0px 120px;
-    @include flex(row-reverse,center,center);
-    height: 65vh;
-    margin : 5rem 0rem;
+    // border-radius: 0px 120px;
+    // @include flex(row-reverse,center,center);
+    // height: 65vh;
+    // margin : 5rem 0rem;
     #{&}__mobile{
         img{
             height : 530px;
@@ -122,6 +122,13 @@
             padding : 1rem 0rem;
             line-height: 1.5rem;
         }
-        max-width: 45%;
+        // max-width: 45%;
+    }
+    #{&}__circles{
+        img{
+            height : 500px;
+            width : 500px;
+        }
+        // color : white;
     }
 }
