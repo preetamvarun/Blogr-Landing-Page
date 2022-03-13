@@ -107,10 +107,7 @@
     background-color: $very-dark-blue;
     font-family: 'Overpass', sans-serif;
     border-radius: 0px 120px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
+    @include flex(row-reverse,center,center);
     height: 65vh;
     margin : 5rem 0rem;
     #{&}__mobile{
