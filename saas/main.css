@@ -13,6 +13,7 @@ body {
 
 html, body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -170,6 +171,9 @@ html, body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   left: 4%;
 }
@@ -182,6 +186,76 @@ html, body {
 .future .future__image img {
   height: 600px;
   width: 600px;
+}
+
+.tooling {
+  font-family: 'Overpass', sans-serif;
+}
+
+.tooling .tooling__content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tooling .tooling__image {
+  position: relative;
+  left: -15%;
+}
+
+.tooling .tooling__image img {
+  height: 500px;
+  width: 650px;
+}
+
+.tooling .tooling__test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.tooling .tooling__extensible {
+  padding: .75rem 1.25rem;
+  max-width: 90%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tooling .tooling__extensible p {
+  padding: 1rem 0rem;
+  line-height: 1.5rem;
+}
+
+.tooling .tooling__extensible h3 {
+  color: #1f3f5b;
+}
+
+.tooling .tooling__robust {
+  padding: .75rem 1.25rem;
+  max-width: 90%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tooling .tooling__robust p {
+  padding: 1rem 0rem;
+  line-height: 1.5rem;
+}
+
+.tooling .tooling__robust h3 {
+  color: #1f3f5b;
 }
 
 .infrastructure {
@@ -202,13 +276,13 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 65vh;
+  height: 60vh;
   margin: 5rem 0rem;
 }
 
 .infrastructure .infrastructure__mobile img {
-  height: 530px;
-  width: 530px;
+  height: 520px;
+  width: 520px;
 }
 
 .infrastructure .infrastructure__content {
@@ -227,5 +301,46 @@ html, body {
 .infrastructure .infrastructure__circles img {
   height: 500px;
   width: 500px;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding: 3rem 0rem;
+  background-color: #25252d;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  border-radius: 0px 100px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  padding: .4rem 0rem;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: #c8c8cb;
+  font-size: .85rem;
+  display: inline-block;
+}
+
+.footer h3 {
+  margin-bottom: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */
