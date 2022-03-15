@@ -260,6 +260,7 @@ html, body {
 
 .infrastructure {
   color: white;
+  position: relative;
   background-color: #1f3f5b;
   font-family: 'Overpass', sans-serif;
   border-radius: 0px 120px;
@@ -267,17 +268,36 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 60vh;
   margin: 5rem 0rem;
+}
+
+.infrastructure .infrastructure__circles {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.infrastructure .infrastructure__circles img {
+  height: 200%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.infrastructure .infrastructure__mobile {
+  position: relative;
+  z-index: 1;
 }
 
 .infrastructure .infrastructure__mobile img {
@@ -286,21 +306,14 @@ html, body {
 }
 
 .infrastructure .infrastructure__content {
+  position: relative;
+  z-index: 1;
   max-width: 45%;
 }
 
 .infrastructure .infrastructure__content p {
   padding: 1rem 0rem;
   line-height: 1.5rem;
-}
-
-.infrastructure .infrastructure__circles {
-  color: white;
-}
-
-.infrastructure .infrastructure__circles img {
-  height: 500px;
-  width: 500px;
 }
 
 .footer {
