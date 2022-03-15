@@ -4,27 +4,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
 
-
 .header{
     background: url('../images/bg-pattern-intro-desktop.svg') no-repeat center center/cover, linear-gradient(to right, $very-light-red-gradient, $light-red-gradient);
     border-radius: 0px 0px 0px 75px;
     font-family: 'Overpass', sans-serif;
-    height : 80vh;
+    height : 85vh;
+
     #{&}__navigation{
         max-width : 90%;
         margin : 0 auto;
         padding : 2rem 0rem;
-        // background-color: red;
-        @include flex(row,space-between,center);
+        @include flex(row,space-between,flex-start);
     }
+
+    #{&}__navigation-left > span{
+        color : $white;
+        font-size : 1.5rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: map-get($map : $font-weights, $key : 'semi-bold-Ubuntu');
+    }
+
     #{&}__navigation-left{
+
         span{
             color : $white;
-            font-size : 1.5rem;
-            font-family: 'Ubuntu', sans-serif;
-            font-weight: map-get($map : $font-weights, $key : 'semi-bold-Ubuntu');
+            position: relative;
         }
+
+        .links span{
+            position: relative;
+        }
+
+        .links span::after{
+            position: absolute;
+            content : "";
+            height : 2px;
+            width : 100%;
+            background-color: white;
+            bottom : 0;
+            left : 0;
+            transform: scaleX(0);
+            border-radius: 2px;
+            transition: all .5s ease;
+        }
+
+        .links span:hover::after{
+            transform: scaleX(1);
+        }
+
+        img{
+            padding-left : .3rem;
+        }
+
+        span:hover, img:hover{
+            cursor: pointer;
+        }
+
+        .ans-box ul{
+            list-style-type: none;
+            margin-top: 1rem;
+            background-color: white;
+            padding : 1rem 2rem 1rem 1rem;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .ans-box ul li{
+            padding : .4rem;
+        }
+
+        .ans-box ul li a{
+            display: inline-block;
+            text-decoration: none;
+            color : black;
+            position: relative;
+        }
+
     }
+
     #{&}__navigation-right{
         a{
             @include header_links();
@@ -38,11 +95,10 @@
     #{&}__content{
         // background-color: blue;
         text-align: center;
-        position: relative;
-        right : 0;
-        left : 0;
+        position: absolute;
         top : 50%;
-        transform: translateY(-100%);
+        left : 50%;
+        transform: translate(-50%,-50%);
         h1{
             color : $white;
         }
@@ -180,10 +236,8 @@
     color : $white;
     border-radius: 0px 50px 0px 0px;
     @include flex(row,space-evenly,flex-start);
-    ul{
-        list-style: none;
-    }
     ul li{
+        list-style: none;
         padding : .4rem 0rem;
     }
     ul li a{
@@ -196,12 +250,13 @@
 
     ul li a::before, ul li a::after{
         position: absolute;
-        content: '';
-        height: 1.8px;
+        content : "";
+        height: 2px;
         width: 51%;
         background-color: $grayish-blue;
         bottom: 0;
         transition: all .5s ease;
+        color : red;
         transform: scaleX(0);
     }
 
@@ -228,3 +283,9 @@
     }
 
 }
+
+    
+
+    
+
+    
