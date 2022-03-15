@@ -7,7 +7,6 @@ const ans3 = document.getElementById('ans-box-3')
 
 arrow1.addEventListener('click', () => {
     arrow1.classList.toggle("inverse");
-    console.log(ans1.style)
 })
 
 arrow2.addEventListener('click',() => {
