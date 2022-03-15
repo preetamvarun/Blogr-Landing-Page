@@ -179,10 +179,42 @@
         color : $grayish-blue;
         font-size: .85rem;
         display: inline-block;
+        position: relative;
     }
+
+    ul li a::before, ul li a::after{
+        position: absolute;
+        content: '';
+        height: 1.8px;
+        width: 51%;
+        background-color: $grayish-blue;
+        bottom: 0;
+        transition: all .5s ease;
+        transform: scaleX(0);
+    }
+
+    ul li a::before{
+        border-top-left-radius: 2px;
+        border-bottom-left-radius: 2px;
+        left : 0;
+        transform-origin: right;
+    }
+
+    ul li a::after{
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;        
+        right: 0;
+        transform-origin: left;
+    }
+
+    ul li a:hover::after, ul li a:hover::before{
+        transform: scaleX(1);
+    }
+
     h3{
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.25rem;
     }
+
 }
 
 

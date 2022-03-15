@@ -309,7 +309,7 @@ html, body {
   background-color: #25252d;
   font-family: 'Overpass', sans-serif;
   color: white;
-  border-radius: 0px 100px 0px 0px;
+  border-radius: 0px 50px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,9 +338,44 @@ html, body {
   color: #c8c8cb;
   font-size: .85rem;
   display: inline-block;
+  position: relative;
+}
+
+.footer ul li a::before, .footer ul li a::after {
+  position: absolute;
+  content: '';
+  height: 1.8px;
+  width: 51%;
+  background-color: #c8c8cb;
+  bottom: 0;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+
+.footer ul li a::before {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  left: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.footer ul li a::after {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  right: 0;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+.footer ul li a:hover::after, .footer ul li a:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .footer h3 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 /*# sourceMappingURL=main.css.map */
