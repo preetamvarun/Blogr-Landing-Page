@@ -87,6 +87,9 @@
             padding : 1rem 2rem 1rem 1rem;
             border-radius: 5px;
             opacity: 0;
+            position: relative;
+            z-index: 2;
+            transition: opacity .75s ease;
         }
 
         .ans-box ul li{
@@ -96,9 +99,16 @@
         .ans-box ul li a{
             display: inline-block;
             text-decoration: none;
-            color : black;
+            color : $very-dark-black-blue;
             position: relative;
         }
+
+        .ans-box ul li a:hover{
+            font-family: 'Ubuntu',sans-serif;
+            font-weight: map-get($map: $font-weights, $key: 'bold-Ubuntu');
+        }
+
+
 
     }
 
