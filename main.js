@@ -13,7 +13,6 @@ arrow1.addEventListener('click', () => {
 arrow2.addEventListener('click',() => {
     arrow2.classList.toggle("inverse");
     arrow2.classList.contains("inverse") ? ans2.style.opacity = 1 : ans2.style.opacity = 0;
-
 });
 
 arrow3.addEventListener('click',() => {
