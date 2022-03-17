@@ -3,17 +3,40 @@
         margin-bottom: -3.5rem;
         #{&}__extensible{
             @include section_one_content();
-            // background-color: goldenrod
         }
         #{&}__robust{
             @include section_one_content();
-            // background-color: darkcyan
         }
         #{&}__image{
             img{
                 height : 600px;
                 width : 600px;
+                transform: translateX(30%);
             }
         }
+    }
+    .infrastructure{
+        height : 60vh;
+        #{&}__circles{
+            img{
+                height: 200%;
+                transform: translateY(-50%);
+            }
+        }
+
+        #{&}__content{
+            max-width: 45%;
+        }
+
+        #{&}__mobile{
+            z-index: 1;
+            img{
+                height : 520px;
+                width : 520px;
+            }
+        }
+    }
+    .tooling{
+        
     }
 }

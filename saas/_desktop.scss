@@ -1,4 +1,8 @@
+
 @media (min-width : 860px) and (max-width : 1200px){
+
+    // STYLING FUTURE SECTION IN DESKTOP MODE 
+
     .future{
         h2{
             padding : 1rem;
@@ -10,7 +14,6 @@
             @include section_one_content_desk();
         }
         #{&}__image{
-            // background-color: blue;
             img{
                 
                 transform: translateX(30%);
@@ -19,4 +22,29 @@
             }
         }
     }
+
+    // STYLING TOOLING SECTION IN DESKTOP MODE
+
+    
+
+    // STYLING INFRASTRUCTURE SECTION IN DESKTOP MODE 
+
+    .infrastructure{
+        height: 45vh;
+        #{&}__circles{
+            img{
+                height: 150%;
+            }
+        }
+        #{&}__mobile{
+            z-index: 1;
+            img{
+                height : 430px;
+                width : 430px;
+            }
+        }
+    }
+
+
+
 }

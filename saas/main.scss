@@ -215,7 +215,6 @@
     font-family: 'Overpass', sans-serif;
     border-radius: 0px 120px;
     @include flex(row,space-evenly,center);
-    height: 60vh;
     margin : 5rem 0rem;
     #{&}__circles{
         position: absolute;
@@ -224,26 +223,15 @@
         left : 0;
         overflow: hidden;
         img{
-            height: 200%;
             transform: translateY(-50%);
         }
     }
-    #{&}__mobile{
-        position: relative;
-        z-index: 1;
-        img{
-            height : 520px;
-            width : 520px;
-        }
-    }
     #{&}__content{
-        position: relative;
         z-index: 1;
         p{
             padding : 1rem 0rem;
             line-height: 1.5rem;
         }
-        max-width: 45%;
     }
 }
 
