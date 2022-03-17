@@ -1,4 +1,4 @@
-@media (min-width : 650px) and (max-width : 860px){
+@media (min-width : 651px) and (max-width : 860px){
 
     // STYLING FUTURE SECTION IN TABLET MODE 
     
@@ -56,11 +56,15 @@
         #{&}__mobile{
             z-index: 1;
             img{
-                height : 400px;
-                width : 400px;
+                height : 380px;
+                width : 380px;
             }
         }
     }
 
+    .footer{
+        @include flex(row,space-evenly,flex-start);
+        background-color: $very-dark-black-blue;
+    }
 
 }

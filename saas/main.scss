@@ -109,7 +109,7 @@
             font-family: 'Ubuntu',sans-serif;
             font-weight: map-get($map: $font-weights, $key: 'bold-Ubuntu');
         }
-        
+
     }
 
     #{&}__navigation-right{
@@ -206,11 +206,9 @@
 .footer{
     margin-top: 3rem;
     padding : 3rem 0rem;
-    background-color: $very-dark-black-blue;
     font-family: 'Overpass', sans-serif;
     color : $white;
     border-radius: 0px 50px 0px 0px;
-    @include flex(row,space-evenly,flex-start);
     ul li{
         list-style: none;
         padding : .4rem 0rem;

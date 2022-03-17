@@ -53,4 +53,9 @@
         }   
     }
 
+    .footer{
+        @include flex(row,space-evenly,flex-start);
+        background-color: $very-dark-black-blue;
+    }
+
 }
