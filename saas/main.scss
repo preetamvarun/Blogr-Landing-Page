@@ -7,6 +7,7 @@
 @import "desktop";
 @import "wide-screens";
 @import "tablets";
+@import "smallMobile";
 
 .inverse{
     transform: rotate(180deg);
@@ -189,9 +190,6 @@
         bottom : 0;
         left : 0;
         overflow: hidden;
-        img{
-            transform: translateY(-50%);
-        }
     }
     #{&}__content{
         z-index: 1;

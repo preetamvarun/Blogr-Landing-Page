@@ -1,5 +1,4 @@
-@media (min-width : 380px) and (max-width : 650px){
-
+@media (max-width : 379px){
     .future{
         h2{
             padding : 1rem;
@@ -27,7 +26,6 @@
             }
         }
     }
-
     .tooling{
         h3,p{
             text-align: center;
@@ -52,10 +50,9 @@
             padding : 1rem 0rem 1rem 1rem;
         }
     }
-
     .infrastructure{
-        border-radius: 0px 80px;
-        height : 56vh;
+        border-radius: 0px 60px;
+        height : 67vh;
         position: relative;
         #{&}__content{
             h2{
@@ -66,12 +63,12 @@
             }
             width: 85%;
             margin : 0 auto;
-            transform: translateY(-50%);
+            transform: translateY(-45%);
         }
         #{&}__circles{
             img{
-                height: 85%;
-                transform: translateY(-50%);
+                height: 70%;
+                transform: translateY(-30%);
             }
         }
         #{&}__mobile{
@@ -80,29 +77,22 @@
             position: relative;
             top : -20%;
             img{
-                height : 320px;
-                width : 320px;
+                height : 260px;
+                width : 260px;
             }
         }
     }
-
     .footer{
-        font-size: .95rem;
-        @include flex(row,space-evenly,flex-start);
+        display: flex;
         background-color: $very-dark-black-blue;
+        flex-direction: column;
+        align-items: center;
+        h2{
+            margin-bottom: 1rem;
+        }
+        div{
+            padding : 1rem;
+            width : 100px;
+        }
     }
-
 }
-
-
-// display: flex;
-//         background-color: $very-dark-black-blue;
-//         flex-direction: column;
-//         align-items: center;
-//         h2{
-//             margin-bottom: 1rem;
-//         }
-//         div{
-//             padding : 1rem;
-//             width : 100px;
-//         }
