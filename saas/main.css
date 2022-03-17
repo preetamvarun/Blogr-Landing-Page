@@ -16,6 +16,12 @@ html, body {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 500px) {
+  body {
+    display: none;
+  }
+}
+
 .inverse {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
