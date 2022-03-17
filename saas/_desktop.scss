@@ -2,7 +2,7 @@
 @media (min-width : 860px) and (max-width : 1200px){
 
     // STYLING FUTURE SECTION IN DESKTOP MODE 
-
+    
     .future{
         h2{
             padding : 1rem;
@@ -26,7 +26,7 @@
             img{
                 transform: translateX(-30%);
                 height : 450px;
-                width : 450px;
+                width : 500px;
             }
         }
         #{&}__test{
@@ -55,7 +55,4 @@
             }
         }
     }
-
-
-
 }
