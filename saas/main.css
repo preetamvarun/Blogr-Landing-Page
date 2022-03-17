@@ -487,8 +487,8 @@ html, body {
     text-align: center;
   }
   .future .future__image img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
   }
   .tooling h3, .tooling p {
     text-align: center;
@@ -506,8 +506,8 @@ html, body {
     text-align: center;
   }
   .tooling .tooling__image img {
-    height: 300px;
-    width: 350px;
+    height: 250px;
+    width: 300px;
   }
   .tooling .tooling__extensible {
     padding: 1rem 0rem 1rem 1rem;
@@ -533,7 +533,7 @@ html, body {
   }
   .infrastructure {
     border-radius: 0px 60px;
-    height: 67vh;
+    height: 62vh;
     position: relative;
   }
   .infrastructure .infrastructure__content {
@@ -560,8 +560,8 @@ html, body {
     top: -20%;
   }
   .infrastructure .infrastructure__mobile img {
-    height: 260px;
-    width: 260px;
+    height: 240px;
+    width: 240px;
   }
   .footer {
     display: -webkit-box;
