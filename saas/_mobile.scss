@@ -4,6 +4,9 @@
         h2{
             padding : 1rem;
         }
+        h3,p{
+            text-align: center;
+        }
         #{&}__content{
             display: flex;
             flex-direction: column-reverse;
@@ -26,6 +29,9 @@
     }
 
     .tooling{
+        h3,p{
+            text-align: center;
+        }
         #{&}__content{
             display: flex;
             flex-direction: column;
@@ -49,14 +55,29 @@
 
     .infrastructure{
         border-radius: 0px 80px;
-        height: 35vh;
+        height : 53vh;
+        position: relative;
+        #{&}__content{
+            h2{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+            }
+            width: 85%;
+            margin : 0 auto;
+            transform: translateY(-50%);
+        }
         #{&}__circles{
             img{
-                height: 130%;
+                height: 85%;
             }
         }
         #{&}__mobile{
+            text-align: center;
             z-index: 1;
+            position: relative;
+            top : -20%;
             img{
                 height : 320px;
                 width : 320px;

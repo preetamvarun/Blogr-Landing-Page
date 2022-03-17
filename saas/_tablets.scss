@@ -47,6 +47,7 @@
 
     .infrastructure{
         border-radius: 0px 80px;
+        @include flex(row,space-evenly,center);
         height: 35vh;
         #{&}__circles{
             img{

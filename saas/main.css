@@ -20,6 +20,9 @@ html, body {
   .future h2 {
     padding: 1rem;
   }
+  .future h3, .future p {
+    text-align: center;
+  }
   .future .future__content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -57,6 +60,9 @@ html, body {
   .future .future__image img {
     height: 350px;
     width: 350px;
+  }
+  .tooling h3, .tooling p {
+    text-align: center;
   }
   .tooling .tooling__content {
     display: -webkit-box;
@@ -98,13 +104,29 @@ html, body {
   }
   .infrastructure {
     border-radius: 0px 80px;
-    height: 35vh;
+    height: 53vh;
+    position: relative;
+  }
+  .infrastructure .infrastructure__content {
+    width: 85%;
+    margin: 0 auto;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .infrastructure .infrastructure__content h2 {
+    text-align: center;
+  }
+  .infrastructure .infrastructure__content p {
+    text-align: center;
   }
   .infrastructure .infrastructure__circles img {
-    height: 130%;
+    height: 85%;
   }
   .infrastructure .infrastructure__mobile {
+    text-align: center;
     z-index: 1;
+    position: relative;
+    top: -20%;
   }
   .infrastructure .infrastructure__mobile img {
     height: 320px;
@@ -168,6 +190,19 @@ html, body {
   .infrastructure {
     height: 40vh;
     border-radius: 0px 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .infrastructure .infrastructure__circles img {
     height: 150%;
@@ -232,6 +267,19 @@ html, body {
             transform: translateX(30%);
   }
   .infrastructure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     border-radius: 0px 120px;
     height: 60vh;
   }
@@ -348,6 +396,19 @@ html, body {
   }
   .infrastructure {
     border-radius: 0px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 35vh;
   }
   .infrastructure .infrastructure__circles img {
@@ -624,19 +685,6 @@ html, body {
   position: relative;
   background-color: #1f3f5b;
   font-family: 'Overpass', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin: 5rem 0rem;
 }
 

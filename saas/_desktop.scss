@@ -40,6 +40,7 @@
     .infrastructure{
         height: 40vh;
         border-radius: 0px 120px;
+        @include flex(row,space-evenly,center);
         #{&}__circles{
             img{
                 height: 150%;
