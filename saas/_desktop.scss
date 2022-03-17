@@ -1,3 +1,22 @@
-@media (min-width : 850px) and (max-width : 1200px){
-    
+@media (min-width : 860px) and (max-width : 1200px){
+    .future{
+        h2{
+            padding : 1rem;
+        }
+        #{&}__extensible{
+            @include section_one_content_desk();
+        }
+        #{&}__robust{
+            @include section_one_content_desk();
+        }
+        #{&}__image{
+            // background-color: blue;
+            img{
+                
+                transform: translateX(30%);
+                height : 450px;
+                width : 450px;
+            }
+        }
+    }
 }

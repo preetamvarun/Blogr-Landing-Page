@@ -1,0 +1,19 @@
+@media(min-width : 1201px){
+    .future{
+        margin-bottom: -3.5rem;
+        #{&}__extensible{
+            @include section_one_content();
+            // background-color: goldenrod
+        }
+        #{&}__robust{
+            @include section_one_content();
+            // background-color: darkcyan
+        }
+        #{&}__image{
+            img{
+                height : 600px;
+                width : 600px;
+            }
+        }
+    }
+}
