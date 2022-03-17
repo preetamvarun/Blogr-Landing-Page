@@ -1,6 +1,7 @@
 const arrow1 = document.getElementById('iconImg1');
 const arrow2 = document.getElementById('iconImg2');
 const arrow3 = document.getElementById('iconImg3');
+
 const ans1 = document.getElementById('ans-box-1');
 const ans2 = document.getElementById('ans-box-2');
 const ans3 = document.getElementById('ans-box-3');
