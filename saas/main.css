@@ -26,24 +26,14 @@ html, body {
   .future h2 {
     padding: 1rem;
   }
-  .future .future__extensible {
+  .future .future__extensible, .future .future__robust {
     padding: 1rem 0rem 1rem 1rem;
   }
-  .future .future__extensible p {
+  .future .future__extensible p, .future .future__robust p {
     padding: 1rem 0rem;
     line-height: 1.5rem;
   }
-  .future .future__extensible h3 {
-    color: #1f3f5b;
-  }
-  .future .future__robust {
-    padding: 1rem 0rem 1rem 1rem;
-  }
-  .future .future__robust p {
-    padding: 1rem 0rem;
-    line-height: 1.5rem;
-  }
-  .future .future__robust h3 {
+  .future .future__extensible h3, .future .future__robust h3 {
     color: #1f3f5b;
   }
   .future .future__image img {
@@ -51,6 +41,37 @@ html, body {
             transform: translateX(30%);
     height: 450px;
     width: 450px;
+  }
+  .tooling .tooling__image img {
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+    height: 450px;
+    width: 450px;
+  }
+  .tooling .tooling__test {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .tooling .tooling__extensible, .tooling .tooling__robust {
+    padding: 1rem 0rem 1rem 1rem;
+  }
+  .tooling .tooling__extensible p, .tooling .tooling__robust p {
+    padding: 1rem 0rem;
+    line-height: 1.5rem;
+  }
+  .tooling .tooling__extensible h3, .tooling .tooling__robust h3 {
+    color: #1f3f5b;
   }
   .infrastructure {
     height: 45vh;
@@ -118,6 +139,24 @@ html, body {
   .infrastructure .infrastructure__mobile img {
     height: 520px;
     width: 520px;
+  }
+  .tooling .tooling__extensible, .tooling .tooling__robust {
+    padding: .75rem 1.25rem;
+    max-width: 95%;
+    margin: 0 auto;
+  }
+  .tooling .tooling__extensible p, .tooling .tooling__robust p {
+    padding: 1rem 0rem;
+    line-height: 1.5rem;
+  }
+  .tooling .tooling__extensible h3, .tooling .tooling__robust h3 {
+    color: #1f3f5b;
+  }
+  .tooling .tooling__image img {
+    height: 550px;
+    width: 650px;
+    -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
   }
 }
 
@@ -337,20 +376,9 @@ html, body {
 }
 
 .tooling .tooling__content {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.tooling .tooling__image {
-  position: relative;
-  left: -15%;
-}
-
-.tooling .tooling__image img {
-  height: 550px;
-  width: 650px;
 }
 
 .tooling .tooling__test {
@@ -367,42 +395,6 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  right: 5%;
-}
-
-.tooling .tooling__extensible {
-  padding: .75rem 1.25rem;
-  max-width: 95%;
-  margin: 0 auto;
-  padding-right: 0rem;
-  width: 100%;
-}
-
-.tooling .tooling__extensible p {
-  padding: 1rem 0rem;
-  line-height: 1.5rem;
-}
-
-.tooling .tooling__extensible h3 {
-  color: #1f3f5b;
-}
-
-.tooling .tooling__robust {
-  padding: .75rem 1.25rem;
-  max-width: 95%;
-  margin: 0 auto;
-  padding-right: 0rem;
-  width: 100%;
-}
-
-.tooling .tooling__robust p {
-  padding: 1rem 0rem;
-  line-height: 1.5rem;
-}
-
-.tooling .tooling__robust h3 {
-  color: #1f3f5b;
 }
 
 .infrastructure {

@@ -37,6 +37,15 @@
         }
     }
     .tooling{
-        
+        #{&}__extensible, #{&}__robust{
+            @include section_one_content();
+        }
+        #{&}__image{
+            img{
+                height : 550px;
+                width : 650px;
+                transform: translateX(-30%);
+            }
+        }   
     }
 }

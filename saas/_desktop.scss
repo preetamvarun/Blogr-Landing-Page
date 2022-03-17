@@ -7,15 +7,11 @@
         h2{
             padding : 1rem;
         }
-        #{&}__extensible{
-            @include section_one_content_desk();
-        }
-        #{&}__robust{
+        #{&}__extensible, #{&}__robust{
             @include section_one_content_desk();
         }
         #{&}__image{
             img{
-                
                 transform: translateX(30%);
                 height : 450px;
                 width : 450px;
@@ -25,7 +21,22 @@
 
     // STYLING TOOLING SECTION IN DESKTOP MODE
 
-    
+    .tooling{
+        #{&}__image{
+            img{
+                transform: translateX(-30%);
+                height : 450px;
+                width : 450px;
+            }
+        }
+        #{&}__test{
+            @include flex(column,center,center);
+        }
+        #{&}__extensible, #{&}__robust{
+            @include section_one_content_desk();
+        }
+    }
+
 
     // STYLING INFRASTRUCTURE SECTION IN DESKTOP MODE 
 
