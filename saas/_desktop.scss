@@ -2,7 +2,7 @@
 @media (min-width : 860px) and (max-width : 1200px){
 
     // STYLING FUTURE SECTION IN DESKTOP MODE 
-    
+
     .future{
         h2{
             padding : 1rem;
@@ -29,9 +29,6 @@
                 width : 500px;
             }
         }
-        #{&}__test{
-            @include flex(column,center,center);
-        }
         #{&}__extensible, #{&}__robust{
             @include section_one_content_desk();
         }
@@ -42,6 +39,7 @@
 
     .infrastructure{
         height: 45vh;
+        border-radius: 0px 120px;
         #{&}__circles{
             img{
                 height: 150%;

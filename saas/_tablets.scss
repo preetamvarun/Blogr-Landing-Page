@@ -1,0 +1,67 @@
+@media (min-width : 650px) and (max-width : 860px){
+
+    // STYLING FUTURE SECTION IN TABLET MODE 
+    
+    .future{
+        h2{
+            padding : 1rem;
+        }
+        #{&}__extensible{
+            @include section_one_content_desk();
+            padding : 1rem 0rem;
+        }
+        #{&}__robust{
+            @include section_one_content_desk();
+            padding : 1rem 0rem;
+        }
+        #{&}__image{
+            img{
+                transform: translateX(30%);
+                height : 400px;
+                width : 400px;
+            }
+        }
+    }
+
+    // STYLING TOOLING SECTION IN DESKTOP MODE
+
+    .tooling{
+        #{&}__image{
+            img{
+                transform: translateX(-30%);
+                height : 350px;
+                width : 400px;
+            }
+        }
+        #{&}__extensible{
+            @include section_one_content_desk();
+            padding : 1rem 0rem;
+        }
+        #{&}__robust{
+            @include section_one_content_desk();
+            padding : 1rem 0rem;
+        }
+    }
+
+    // STYLING INFRASTRUCTURE SECTION IN TABLET MODE 
+
+    .infrastructure{
+        border-radius: 0px;
+        border-radius: 0px 80px;
+        height: 40vh;
+        #{&}__circles{
+            img{
+                height: 130%;
+            }
+        }
+        #{&}__mobile{
+            z-index: 1;
+            img{
+                height : 400px;
+                width : 400px;
+            }
+        }
+    }
+
+
+}

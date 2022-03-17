@@ -6,6 +6,7 @@
 @import "mobile";
 @import "desktop";
 @import "wide-screens";
+@import "tablets";
 
 .inverse{
     transform: rotate(180deg);
@@ -180,7 +181,6 @@
     position: relative;
     background-color: $very-dark-blue;
     font-family: 'Overpass', sans-serif;
-    border-radius: 0px 120px;
     @include flex(row,space-evenly,center);
     margin : 5rem 0rem;
     #{&}__circles{

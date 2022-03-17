@@ -18,6 +18,7 @@
     }
 
     .infrastructure{
+        border-radius: 0px 120px;
         height : 60vh;
         #{&}__circles{
             img{
@@ -51,5 +52,5 @@
             }
         }   
     }
-    
+
 }
