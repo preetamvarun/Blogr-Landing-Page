@@ -59,7 +59,7 @@ html, body {
     color: #1f3f5b;
   }
   .infrastructure {
-    height: 45vh;
+    height: 40vh;
     border-radius: 0px 120px;
   }
   .infrastructure .infrastructure__circles img {
@@ -153,7 +153,7 @@ html, body {
   }
   .future .future__extensible {
     padding: 1rem 0rem 1rem 1rem;
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 1rem 1rem;
   }
   .future .future__extensible p {
     padding: 1rem 0rem;
@@ -164,7 +164,7 @@ html, body {
   }
   .future .future__robust {
     padding: 1rem 0rem 1rem 1rem;
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 1rem 1rem;
   }
   .future .future__robust p {
     padding: 1rem 0rem;
@@ -187,7 +187,7 @@ html, body {
   }
   .tooling .tooling__extensible {
     padding: 1rem 0rem 1rem 1rem;
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 1rem 1rem;
   }
   .tooling .tooling__extensible p {
     padding: 1rem 0rem;
@@ -198,7 +198,7 @@ html, body {
   }
   .tooling .tooling__robust {
     padding: 1rem 0rem 1rem 1rem;
-    padding: 1rem 0rem;
+    padding: 1rem 0rem 1rem 1rem;
   }
   .tooling .tooling__robust p {
     padding: 1rem 0rem;
@@ -209,7 +209,7 @@ html, body {
   }
   .infrastructure {
     border-radius: 0px 80px;
-    height: 40vh;
+    height: 35vh;
   }
   .infrastructure .infrastructure__circles img {
     height: 130%;

@@ -8,11 +8,11 @@
         }
         #{&}__extensible{
             @include section_one_content_desk();
-            padding : 1rem 0rem;
+            padding : 1rem 0rem 1rem 1rem;
         }
         #{&}__robust{
             @include section_one_content_desk();
-            padding : 1rem 0rem;
+            padding : 1rem 0rem 1rem 1rem;
         }
         #{&}__image{
             img{
@@ -35,11 +35,11 @@
         }
         #{&}__extensible{
             @include section_one_content_desk();
-            padding : 1rem 0rem;
+            padding : 1rem 0rem 1rem 1rem;
         }
         #{&}__robust{
             @include section_one_content_desk();
-            padding : 1rem 0rem;
+            padding : 1rem 0rem 1rem 1rem;
         }
     }
 
@@ -47,7 +47,7 @@
 
     .infrastructure{
         border-radius: 0px 80px;
-        height: 40vh;
+        height: 35vh;
         #{&}__circles{
             img{
                 height: 130%;

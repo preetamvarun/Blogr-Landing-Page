@@ -109,9 +109,7 @@
             font-family: 'Ubuntu',sans-serif;
             font-weight: map-get($map: $font-weights, $key: 'bold-Ubuntu');
         }
-
-
-
+        
     }
 
     #{&}__navigation-right{
