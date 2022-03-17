@@ -89,10 +89,9 @@
             background-color: white;
             padding : 1rem 2rem 1rem 1rem;
             border-radius: 5px;
-            opacity: 0;
+            display: none;
             position: relative;
             z-index: 2;
-            transition: opacity .75s ease;
         }
 
         .ans-box ul li{
@@ -126,8 +125,12 @@
     }
 
     #{&}__content{
-        // background-color: blue;
         text-align: center;
+        position: absolute;
+        top : 40%;
+        left : 50%;
+        width : 100%;
+        transform: translate(-50%,-50%);
         h1{
             color : $white;
         }

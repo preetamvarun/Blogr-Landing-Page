@@ -323,11 +323,9 @@ html, body {
   background-color: white;
   padding: 1rem 2rem 1rem 1rem;
   border-radius: 5px;
-  opacity: 0;
+  display: none;
   position: relative;
   z-index: 2;
-  -webkit-transition: opacity .75s ease;
-  transition: opacity .75s ease;
 }
 
 .header .header__navigation-left .ans-box ul li {
@@ -367,6 +365,12 @@ html, body {
 
 .header .header__content {
   text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .header .header__content h1 {
