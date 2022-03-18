@@ -17,6 +17,12 @@ html, body {
 }
 
 @media (min-width: 380px) and (max-width: 650px) {
+  .header .header__mobileNav {
+    display: block;
+  }
+  .header .header__navigation-right, .header .header__navigation-left {
+    display: none;
+  }
   .future h2 {
     padding: 1rem;
   }
@@ -154,6 +160,9 @@ html, body {
 }
 
 @media (min-width: 860px) and (max-width: 1200px) {
+  .header .header__mobileNav {
+    display: none;
+  }
   .future h2 {
     padding: 1rem;
   }
@@ -237,6 +246,9 @@ html, body {
 }
 
 @media (min-width: 1201px) {
+  .header .header__mobileNav {
+    display: none;
+  }
   .future {
     margin-bottom: -3.5rem;
   }
@@ -339,6 +351,9 @@ html, body {
 }
 
 @media (min-width: 651px) and (max-width: 860px) {
+  .header .header__mobileNav {
+    display: none;
+  }
   .future h2 {
     padding: 1rem;
   }
@@ -446,6 +461,12 @@ html, body {
 }
 
 @media (max-width: 379px) {
+  .header .header__mobileNav {
+    display: block;
+  }
+  .header .header__navigation-right, .header .header__navigation-left {
+    display: none;
+  }
   .future h2 {
     padding: 1rem;
   }
@@ -590,12 +611,116 @@ html, body {
           transform: rotate(180deg);
 }
 
+.mobile_box {
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  top: 1rem;
+  z-index: 2;
+  max-width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Overpass';
+}
+
+.mobile_box .product, .mobile_box .company, .mobile_box .connect {
+  padding: 1rem 0rem;
+}
+
+.mobile_box span {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.mobile_box ul {
+  list-style: none;
+}
+
+.mobile_box li {
+  padding: .5rem;
+}
+
+.mobile_box a {
+  text-decoration: none;
+  display: inline-block;
+  color: #1f3f5b;
+}
+
+.mobile_box .ans-box {
+  background-color: #c8c8cb;
+  max-width: 80%;
+  margin: .75rem auto;
+  border-radius: 10px;
+}
+
+.mobile_box .underline {
+  max-width: 90%;
+  height: 1.25px;
+  background-color: #c8c8cb;
+  margin: 0 auto;
+}
+
+.mobile_box .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+.mobile_box .btns a {
+  width: 35%;
+  display: inline-block;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background-image: linear-gradient(to right, #ff8f70, #ff3d54);
+  text-decoration: none;
+  margin-bottom: 1rem;
+  padding: .75rem;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+}
+
 .header {
   background: url("../images/bg-pattern-intro-desktop.svg") no-repeat center center/cover, -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
   background: url("../images/bg-pattern-intro-desktop.svg") no-repeat center center/cover, linear-gradient(to right, #ff8f70, #ff3d54);
   border-radius: 0px 0px 0px 75px;
   font-family: 'Overpass', sans-serif;
   height: 85vh;
+}
+
+.header .header__mobileNav {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+}
+
+.header .header__mobileNav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.header .header__mobileNav div img {
+  height: 25px;
+  width: 25px;
+}
+
+.header .header__mobileNav div h2 {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .header .header__navigation {

@@ -1,5 +1,14 @@
 @media (min-width : 380px) and (max-width : 650px){
 
+    .header{
+        #{&}__mobileNav{
+            display: block;
+        }
+        #{&}__navigation-right,#{&}__navigation-left{
+            display: none;
+        }
+    }
+
     .future{
         h2{
             padding : 1rem;

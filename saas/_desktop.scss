@@ -1,6 +1,12 @@
 
 @media (min-width : 860px) and (max-width : 1200px){
 
+    .header{
+        #{&}__mobileNav{
+            display: none;
+        }
+    }
+
     // STYLING FUTURE SECTION IN DESKTOP MODE 
 
     .future{

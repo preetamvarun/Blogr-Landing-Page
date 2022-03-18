@@ -1,4 +1,14 @@
 @media (max-width : 379px){
+    
+    .header{
+        #{&}__mobileNav{
+            display: block;
+        }
+        #{&}__navigation-right,#{&}__navigation-left{
+            display: none;
+        }
+    }
+
     .future{
         h2{
             padding : 1rem;

@@ -1,4 +1,10 @@
 @media(min-width : 1201px){
+
+    .header{
+        #{&}__mobileNav{
+            display: none;
+        }
+    }
     
     .future{
         margin-bottom: -3.5rem;
