@@ -7,7 +7,12 @@
         #{&}__navigation-right,#{&}__navigation-left{
             display: none;
         }
+        #{&}__mobileBox{
+            display: block;
+        }
     }
+
+    
 
     .future{
         h2{

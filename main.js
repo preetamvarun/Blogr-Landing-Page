@@ -8,8 +8,6 @@ const ans3 = document.getElementById('ans-box-3');
 
 const hamburger = document.getElementById('hamburger');
 
-
-
 arrow1.addEventListener('click', () => {
     arrow1.classList.toggle("inverse");
     arrow1.classList.contains("inverse") ? ans1.style.display = 'block' : ans1.style.display = 'none';
@@ -23,9 +21,4 @@ arrow2.addEventListener('click',() => {
 arrow3.addEventListener('click',() => {
     arrow3.classList.toggle("inverse");
     arrow3.classList.contains("inverse") ? ans3.style.display = 'block' : ans3.style.display = 'none'; 
-});
-
-
-hamburger.addEventListener('click', () => {
-
 });

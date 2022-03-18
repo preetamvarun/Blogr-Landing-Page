@@ -23,6 +23,9 @@ html, body {
   .header .header__navigation-right, .header .header__navigation-left {
     display: none;
   }
+  .header .header__mobileBox {
+    display: block;
+  }
   .future h2 {
     padding: 1rem;
   }
@@ -163,6 +166,9 @@ html, body {
   .header .header__mobileNav {
     display: none;
   }
+  .header .header__mobileBox {
+    display: none;
+  }
   .future h2 {
     padding: 1rem;
   }
@@ -247,6 +253,9 @@ html, body {
 
 @media (min-width: 1201px) {
   .header .header__mobileNav {
+    display: none;
+  }
+  .header .header__mobileBox {
     display: none;
   }
   .future {
@@ -352,6 +361,9 @@ html, body {
 
 @media (min-width: 651px) and (max-width: 860px) {
   .header .header__mobileNav {
+    display: none;
+  }
+  .header .header__mobileBox {
     display: none;
   }
   .future h2 {
@@ -466,6 +478,9 @@ html, body {
   }
   .header .header__navigation-right, .header .header__navigation-left {
     display: none;
+  }
+  .mobile-box {
+    display: block;
   }
   .future h2 {
     padding: 1rem;
@@ -611,7 +626,7 @@ html, body {
           transform: rotate(180deg);
 }
 
-.mobile_box {
+.header__mobileBox {
   background-color: white;
   position: relative;
   border-radius: 5px;
@@ -625,44 +640,54 @@ html, body {
   font-family: 'Overpass';
 }
 
-.mobile_box .product, .mobile_box .company, .mobile_box .connect {
+.header__mobileBox .product, .header__mobileBox .company, .header__mobileBox .connect {
   padding: 1rem 0rem;
 }
 
-.mobile_box span {
+.header__mobileBox .angle-down {
+  margin-bottom: -5px;
+  border: 6px solid;
+  margin-left: .25rem;
+  border-color: transparent transparent transparent #ff3d54;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  display: inline-block;
+}
+
+.header__mobileBox span {
   font-size: 1.25rem;
   font-weight: 600;
 }
 
-.mobile_box ul {
+.header__mobileBox ul {
   list-style: none;
 }
 
-.mobile_box li {
+.header__mobileBox li {
   padding: .5rem;
 }
 
-.mobile_box a {
+.header__mobileBox a {
   text-decoration: none;
   display: inline-block;
   color: #1f3f5b;
 }
 
-.mobile_box .ans-box {
+.header__mobileBox .ans-box {
   background-color: #c8c8cb;
   max-width: 80%;
   margin: .75rem auto;
   border-radius: 10px;
 }
 
-.mobile_box .underline {
+.header__mobileBox .underline {
   max-width: 90%;
   height: 1.25px;
   background-color: #c8c8cb;
   margin: 0 auto;
 }
 
-.mobile_box .btns {
+.header__mobileBox .btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -676,7 +701,7 @@ html, body {
   padding: 1rem;
 }
 
-.mobile_box .btns a {
+.header__mobileBox .btns a {
   width: 35%;
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));

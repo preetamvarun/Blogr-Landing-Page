@@ -13,7 +13,7 @@
     transform: rotate(180deg);
 }
 
-.mobile_box{
+.header__mobileBox{
     background-color: $white;
     position: relative;
     border-radius: 5px;
@@ -24,9 +24,20 @@
     margin : 0 auto;
     text-align: center;
     font-family: 'Overpass';
+
     .product,.company,.connect{
         padding : 1rem 0rem;
     }
+
+    .angle-down{
+        margin-bottom: -5px;
+        border: 6px solid;
+        margin-left : .25rem;
+        border-color : transparent transparent transparent $light-red-gradient;
+        transform: rotate(90deg);
+        display: inline-block;
+    }
+
     span{
         font-size: 1.25rem;
         font-weight: 600;
