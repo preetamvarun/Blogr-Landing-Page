@@ -637,6 +637,7 @@ html, body {
   max-width: 95%;
   margin: 0 auto;
   text-align: center;
+  opacity: 0;
   font-family: 'Overpass';
 }
 
