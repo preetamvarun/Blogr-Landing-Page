@@ -52,7 +52,7 @@
         @include flex(row,space-evenly,center);
         #{&}__circles{
             img{
-                height: 150%;
+                height: 140%;
                 transform: translateY(-50%);
             }
         }

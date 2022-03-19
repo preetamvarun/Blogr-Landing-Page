@@ -219,7 +219,7 @@ html, body {
             align-items: center;
   }
   .infrastructure .infrastructure__circles img {
-    height: 150%;
+    height: 140%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
