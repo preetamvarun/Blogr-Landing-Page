@@ -53,5 +53,6 @@ User friendly 🔥 <br>
 clean UI   ☘️ <br>
 Responsive 💙
 
-## Live-demo : 
+## 7. Live Demo ⬇️
+<a name = "liveDemo"> </a> 
 https://blogr-landing-page-website.netlify.app/
