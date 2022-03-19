@@ -56,3 +56,9 @@ Responsive 💙
 ## 7. Live Demo ⬇️
 <a name = "liveDemo"> </a> 
 https://blogr-landing-page-website.netlify.app/
+
+<a name = "contactMe"> </a>
+## 8. Contact Me 📞
+
+- Gmail: [preetamvarun](mailto:preetamvarun99@gmail.com) 📧
+- Github: [preetamvarun](https://github.com/preetamvarun) 
