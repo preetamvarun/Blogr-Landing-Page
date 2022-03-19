@@ -15,8 +15,9 @@ const angle2 = document.getElementById('angle-2');
 const angle3 = document.getElementById('angle-3');
 
 const hamburger = document.getElementById('hamburger');
-
 const hmb = document.getElementById('hmb');
+
+
 
 angle1.addEventListener('click', ()=>{
     angle1.classList.toggle('Inverse');
@@ -38,8 +39,14 @@ angle3.addEventListener('click', ()=>{
 });
 
 hamburger.addEventListener("click", () => {
-    (hmb.style.opacity === '0')? hmb.style.opacity = '1' : hmb.style.opacity = '0';
-    hmb.style.opacity === '1' ? hamburger.src = "./images/icon-close.svg" : hamburger.src = "./images/icon-hamburger.svg";
+    if(hmb.style.opacity !== '1'){
+        hmb.style.opacity = '1';
+        hamburger.src = "./images/icon-close.svg";
+    }
+    else{
+        hmb.style.opacity = '0';
+        hamburger.src = "./images/icon-hamburger.svg";
+    }
 });
 
 arrow1.addEventListener('click', () => {

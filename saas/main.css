@@ -642,6 +642,24 @@ html, body {
   }
 }
 
+@media (max-width: 710px) and (orientation: landscape) {
+  .header {
+    font-size: .75rem;
+  }
+  .header .header__mobileNav {
+    display: block;
+  }
+  .header .header__navigation-right, .header .header__navigation-left {
+    display: none;
+  }
+  .header .header__mobileBox {
+    display: block;
+  }
+  .header .header__content {
+    margin-top: 1rem;
+  }
+}
+
 .inverse {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);

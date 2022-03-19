@@ -1,0 +1,19 @@
+@media (max-width : 710px) and (orientation : landscape){
+    .header{
+        font-size: .75rem;
+        #{&}__mobileNav{
+            display: block;
+        }
+
+        #{&}__navigation-right,#{&}__navigation-left{
+            display: none;
+        }
+        #{&}__mobileBox{
+            display: block;
+        }
+        #{&}__content{
+            margin-top: 1rem;
+            
+        }
+    }
+}

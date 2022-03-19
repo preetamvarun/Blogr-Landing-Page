@@ -9,6 +9,7 @@
 @import "tablets";
 @import "smallMobile";
 @import "landscapeMobile";
+@import "smallMobilesLandscape";
 
 .inverse{
     transform: rotate(180deg);
@@ -352,4 +353,4 @@
         margin-bottom: 1.25rem;
     }
 
-}    
+}
