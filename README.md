@@ -21,5 +21,10 @@ The purpose of this project is to understand and implement the SCSS & CSS & JS c
 <a name = "screenshots"> </a>
 ## 2. Screenshots :camera_flash:
 
+<a name = "preview"> </a>
+## 3. Preview  :movie_camera:
+preview will be added shortly
+
+
 ## Live-demo : 
 https://blogr-landing-page-website.netlify.app/
