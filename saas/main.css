@@ -23,9 +23,6 @@ html, body {
   .header .header__navigation-right, .header .header__navigation-left {
     display: none;
   }
-  .header .header__mobileBox {
-    opacity: 0;
-  }
   .future h2 {
     padding: 1rem;
   }
@@ -618,6 +615,30 @@ html, body {
   .footer div {
     padding: 1rem;
     width: 100px;
+  }
+}
+
+@media (max-width: 950px) and (orientation: landscape) {
+  .infrastructure {
+    height: 75vh;
+    position: relative;
+  }
+  .infrastructure .infrastructure__content {
+    width: 85%;
+    margin: 0 auto;
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  .infrastructure .infrastructure__content h2, .infrastructure .infrastructure__content p {
+    text-align: left;
+  }
+  .infrastructure .infrastructure__mobile {
+    position: relative;
+    top: -10%;
+  }
+  .infrastructure .infrastructure__mobile img {
+    height: 300px;
+    width: 300px;
   }
 }
 

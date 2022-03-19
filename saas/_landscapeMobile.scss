@@ -1,0 +1,22 @@
+@media (max-width : 950px) and (orientation : landscape){
+    .infrastructure{
+        height : 75vh;
+        position: relative;
+        #{&}__content{
+            h2,p{
+                text-align: left;
+            }
+            width: 85%;
+            margin : 0 auto;
+            transform: translateY(0%);
+        }
+        #{&}__mobile{
+            position: relative;
+            top : -10%;
+            img{
+                height : 300px;
+                width : 300px;
+            }
+        }
+    }
+}
