@@ -2,6 +2,10 @@
 
 A blogr landing page built with HTML,SCSS & javascript.
 
+This is a front end mentor challenge ⚔️
+
+challenge link : https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP
+
 > Note : Make sure you are connected to the internet to render icons :desktop_computer:
 
 ## Table of contents
