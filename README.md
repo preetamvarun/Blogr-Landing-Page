@@ -47,6 +47,11 @@ open index.html with a browser you prefer
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
+<a name = "Features"> </a>
+## 6. Features
+User friendly 🔥 <br>
+clean UI   ☘️ <br>
+Responsive 💙
 
 ## Live-demo : 
 https://blogr-landing-page-website.netlify.app/
