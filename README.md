@@ -20,6 +20,7 @@ The purpose of this project is to understand and implement the SCSS & CSS & JS c
 
 <a name = "screenshots"> </a>
 ## 2. Screenshots :camera_flash:
+screenshots will be added shortly
 
 <a name = "preview"> </a>
 ## 3. Preview  :movie_camera:
