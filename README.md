@@ -18,5 +18,8 @@ A blogr landing page built with HTML,SCSS & javascript.
 ## 1. General Info 📝
 The purpose of this project is to understand and implement the SCSS & CSS & JS concepts that i've learned to make the user interface look appealing besides having fun along the journey :smiley:.
 
+<a name = "screenshots"> </a>
+## 2. Screenshots :camera_flash:
+
 ## Live-demo : 
 https://blogr-landing-page-website.netlify.app/
