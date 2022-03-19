@@ -25,6 +25,22 @@ The purpose of this project is to understand and implement the SCSS & CSS & JS c
 ## 3. Preview  :movie_camera:
 preview will be added shortly
 
+<a name = "gettingStarted"> </a>
+## 4. Installation
+
+#### Clone the repo
+
+```sh
+$ git clone https://github.com/preetamvarun/portfolio.git
+$ cd portfolio/
+$ Install live saas compiler in vs code
+```
+
+#### Run the app
+```sh
+open index.html with a browser you prefer
+```
+
 
 ## Live-demo : 
 https://blogr-landing-page-website.netlify.app/
