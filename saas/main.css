@@ -126,7 +126,7 @@ html, body {
     text-align: center;
   }
   .infrastructure .infrastructure__circles img {
-    height: 85%;
+    height: 75%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
   }
