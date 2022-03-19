@@ -41,6 +41,12 @@ $ Install live saas compiler in vs code
 open index.html with a browser you prefer
 ```
 
+<a name = "tech"></a>
+## 5. Technologies used 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 
 ## Live-demo : 
 https://blogr-landing-page-website.netlify.app/
